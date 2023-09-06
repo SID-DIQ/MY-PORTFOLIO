@@ -1,0 +1,13 @@
+.topContainer{
+    background: url(../../assests/ales-nesetril-Im7lZjxeLhg-unsplash.jpg);  
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.topContainer{
+    opacity: 0.8;
+    left: 0%;
+    top: 0%;
+}
