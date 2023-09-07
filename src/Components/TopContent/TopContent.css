@@ -78,7 +78,6 @@
 
     @media (max-width: 768px) {
     .topContent h1 {
-      display: flex;
         height: fit-content;
         font-size: 12px;
     }
