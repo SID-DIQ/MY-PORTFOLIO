@@ -43,7 +43,11 @@
       align-items:baseline;
     }
   
-    .header__left h1 {
+    .header__left > h1 {
+      flex-direction:row;
+      font-size: 2px;
+    }
+    .header__left > span {
       flex-direction:row;
       font-size: 2px;
     }
