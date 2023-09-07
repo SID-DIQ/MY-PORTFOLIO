@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&display=swap');
 
+
+
 * {
     margin: 0%;
     padding: 0%;
@@ -20,151 +22,82 @@ body{
     margin-left:auto ;
 }
 
-@media (min-width: 768px){
-    .container{
-        margin: 0 auto;
-    }
-}
 
-@media (min-width: 992px){
-    .container{
-        max-width: 960px;
-    }
-}
-
-@media (min-width: 1200px){
-    .container{
-        max-width: 1140px;
-    }
-}
-
-@media (min-width: 1400px){
-    .container{
-        max-width: 1350px;
-    }
-}
-
-.section_title p{
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 1.5;
-    color:black;
-}
-
-.section_title h2{
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 1.5;
-    text-transform: capitalize;
-    color: #cdcdcd;
-}
-
-.section_title.center{
-    text-align: center;
-}
-
-.SkillContainer{
+.SkillContainer {
     opacity: 3px ;
     margin-top: 3px;
     padding: 65px 0 100px;
     background-color: black;
-        position: relative;
-}
-
-.SkillContainer .experience-items{
+    text-align: center;
+  }
+  
+  .Container {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  
+  .section_title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.5;
+    color:black;
+  }
+  
+  .section_title h2 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-transform: capitalize;
+    color: #cdcdcd;
+  }
+  
+  .experience-items {
     margin: 30px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
+    color: white;
     flex-wrap: wrap;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
     gap: 20px;
-}
-
-.experience-item{
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 48%;
-    flex: 0 0 48%;
-    max-width: 48%;
-}
-
-.experience-info{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-}
-
-.experience-info p {
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 22px;
-    color: #cdcdcd;
-    opacity: 1;
-    -webkit-animation: showText 0.5s 1s linear forwards;
-    animation: showText 0.5s 1s linear forwards;
-
-}
-
-.Prograss-line {
-    margin-top: 7px;
-    height: 10px;
-    width: 100%;
-    background-color: #cdcdcd;
-    border-radius: 50px;
+  }
+  
+  .experience-item {
+    flex-basis: calc(33.33% - 20px); 
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 5px white;
+  }
+  
+  .experience-info p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .Prograss-line {
+    height: 20px;
+    background-color: black;
+    border-radius: 10px;
     position: relative;
-}
-
-.Prograss-line span {
-    -webkit-transform: scaleX(0);
-    transform: scaleX(0);
-    -webkit-transform-origin: left;
-    -webkit-animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
-    animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+  }
+  
+  .Prograss-line span {
+    display: block;
     height: 100%;
-    border-radius: 50px;
-    position: absolute;
-    background-color: #0080fe;
-    transition: 1s all;
-}
-
-.Prograss-line span.animate {
-    -webkit-animation: animate 1.5s 0.5s cubic-bezier(1, 0, 0.5, 1) forwards;
-    animation: animate 1.5s 0.5s cubic-bezier(1, 0, 0.5, 1) forwards;
-}
-
-
-@-webkit-keyframes showText{
-    100%{
-        opacity: 1;
+    border-radius: 10px;
+    background-color: #007bff;
+  }
+  
+  @media (max-width: 768px) {
+    .section_title h2 {
+      font-size: 24px;
     }
-}
-
-@keyframes showText{
-    100%{
-        opacity: 1;
+  
+    .experience-item {
+      flex-basis: calc(50% - 20px); 
     }
-}
-
-
-@-webkit-keyframes animate{
-    100%{
-        -webkit-transform: scaleX(1);
-        transform: scaleX(1);
-    }
-}
-
-@keyframes animate{
-    100%{
-        -webkit-transform: scaleX(1);
-        transform: scaleX(1);
-
-    }
-}
+  }
+  
