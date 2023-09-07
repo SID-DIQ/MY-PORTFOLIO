@@ -59,17 +59,15 @@
     .topContent h1 {
       height: fit-content;
       font-size: 10px;
-      right: 20%;
+      right: 5%;
     }
   
     .topContent p {
       font-size: 10px;
       letter-spacing: 1px;
-      padding-left: 2px;
-      padding-top: 20px;
       height: fit-content;
       width: 450px;
-      right: 20%;
+      right: 10%;
       text-align:center;
     }
   
