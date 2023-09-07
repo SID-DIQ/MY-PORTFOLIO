@@ -83,12 +83,13 @@
     }
 
         .topContent p {
-          font-size: 16px;
+          font-size: 12px;
           letter-spacing: 1px;
           padding-left: 2px;
           padding-top: 20px;
           height: fit-content;
           width: 450px;
+          right: 20%;
           text-align:center;
         }
   }
