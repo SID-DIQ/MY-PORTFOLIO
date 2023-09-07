@@ -75,4 +75,25 @@
       font-size: 14px;
     }
   }
+
+    @media (max-width: 768px) {
+    .topContent h1 {
+        height: fit-content;
+        font-size: 12px;
+    }
+  
+    .topContent p {
+      font-size: 16px;
+      letter-spacing: 1px;
+      padding-left: 2px;
+      padding-top: 20px;
+      height: fit-content;
+      width: 450px;
+      text-align:center;
+    }
+  
+    .topContent__downloadButton {
+      font-size: 14px;
+    }
+  }
   

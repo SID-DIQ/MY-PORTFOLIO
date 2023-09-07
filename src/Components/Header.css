@@ -45,11 +45,11 @@
   
     .header__left > h1 {
       flex-direction:row;
-      font-size: 2px;
+      font-size: 1px;
     }
     .header__left > span {
       flex-direction:row;
-      font-size: 2px;
+      font-size: 1px;
     }
   
     .header__right {
