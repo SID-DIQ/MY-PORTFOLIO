@@ -80,6 +80,7 @@
     .topContent h1 {
         height: fit-content;
         font-size: 12px;
+    }
 
         .topContent p {
           font-size: 16px;
@@ -90,9 +91,7 @@
           width: 450px;
           text-align:center;
         }
-      
-
-    }
+  }
 
   
     .topContent p {
