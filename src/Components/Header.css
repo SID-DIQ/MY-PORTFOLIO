@@ -49,7 +49,7 @@
   
     .header__right {
       margin-top: 20 px;
-      font-size:xx-small;
+      font-size:2px;
       flex-direction:row;
       align-items: center;
     }
