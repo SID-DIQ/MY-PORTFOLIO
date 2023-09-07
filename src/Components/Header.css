@@ -37,38 +37,53 @@
     cursor: pointer;
   }
   
-  @media (max-width: 768px) {
-    .header {
-      flex-direction: row;
-      align-items:flex-start;
-    }
-  
-    .header__left > h1 {
-      flex-direction:row;
-      font-size: 1px;
-    }
-    .header__left > span {
-      flex-direction:row;
-      font-size: 1px;
-    }
-  
-    .header__right {
-      margin-top: 20 px;
-      font-size:2px;
-      flex-direction:row;
-      align-items: center;
-    }
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column; /* Change to column layout for mobile */
+    align-items: center; /* Center align items vertically */
+  }
+
+  .header__left > h1 {
+    font-size: 24px; /* Reduce font size for h1 */
+  }
+
+  .header__left > h1 > span {
+    font-size: 24px; /* Reduce font size for the span */
+  }
+
+  .header__right {
+    margin-top: 20px; /* Increase top margin for spacing */
+    flex-direction: column; /* Change to column layout for mobile */
+    align-items: center; /* Center align items vertically */
+    gap: 10px; /* Reduce gap between links */
+  }
+
+  .header__right > a > h4 {
+    font-size: 16px; /* Reduce font size for h4 */
+    padding: 5px 10px; /* Reduce padding for smaller touch targets */
   }
 
   .header__right > a > h4:hover {
     transform: scale(1.09);
     background-color: #0080fe;
     color: white;
-    padding: 5px 20px;
+    padding: 5px 10px;
     border-radius: 2px;
     letter-spacing: 1px;
-    font-family: "Crimson Text",serif;
-    font-size: 18px;
+    font-family: "Crimson Text", serif;
+    font-size: 16px; /* Reduce font size on hover */
     cursor: pointer;
+  }
 }
-  
+
+.header__right > a > h4:hover {
+  transform: scale(1.09);
+  background-color: #0080fe;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 2px;
+  letter-spacing: 1px;
+  font-family: "Crimson Text",serif;
+  font-size: 18px;
+  cursor: pointer;
+}
