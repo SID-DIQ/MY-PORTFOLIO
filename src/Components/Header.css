@@ -37,6 +37,24 @@
     cursor: pointer;
   }
   
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: row;
+      align-items:baseline;
+    }
+  
+    .header__left h1 {
+      font-size: 20px;
+    }
+  
+    .header__right {
+      margin-top: 20 px;
+      font-size:xx-small;
+      flex-direction:row;
+      align-items: center;
+    }
+  }
+
   .header__right > a > h4:hover {
     transform: scale(1.09);
     background-color: #0080fe;
