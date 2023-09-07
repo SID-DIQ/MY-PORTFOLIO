@@ -78,11 +78,13 @@
 
     @media (max-width: 768px) {
     .topContent h1 {
+      display: flex;
         height: fit-content;
         font-size: 12px;
     }
 
         .topContent p {
+          display: flex;
           font-size: 12px;
           letter-spacing: 1px;
           padding-left: 2px;
