@@ -39,28 +39,28 @@
   
 @media (max-width: 768px) {
   .header {
-    flex-direction: column; /* Change to column layout for mobile */
-    align-items: center; /* Center align items vertically */
+    flex-direction: column;
+    align-items: center; 
   }
 
   .header__left > h1 {
-    font-size: 24px; /* Reduce font size for h1 */
+    font-size: 24px; 
   }
 
   .header__left > h1 > span {
-    font-size: 24px; /* Reduce font size for the span */
+    font-size: 24px; 
   }
 
   .header__right {
-    margin-top: 20px; /* Increase top margin for spacing */
-    flex-direction: column; /* Change to column layout for mobile */
-    align-items: center; /* Center align items vertically */
-    gap: 10px; /* Reduce gap between links */
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center; 
+    gap: 10px; 
   }
 
   .header__right > a > h4 {
-    font-size: 16px; /* Reduce font size for h4 */
-    padding: 5px 10px; /* Reduce padding for smaller touch targets */
+    font-size: 16px;
+    padding: 5px 10px;
   }
 
   .header__right > a > h4:hover {
@@ -71,7 +71,7 @@
     border-radius: 2px;
     letter-spacing: 1px;
     font-family: "Crimson Text", serif;
-    font-size: 16px; /* Reduce font size on hover */
+    font-size: 16px;
     cursor: pointer;
   }
 }
