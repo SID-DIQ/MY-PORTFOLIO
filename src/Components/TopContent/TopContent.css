@@ -57,44 +57,9 @@
 
   @media (max-width: 768px) {
     .topContent h1 {
-      height: fit-content;
-      font-size: 10px;
-      right: 5%;
-    }
-  
-    .topContent p {
-      font-size: 10px;
-      letter-spacing: 1px;
-      height: fit-content;
-      width: 450px;
-      left: 10%;
-      text-align:center;
-    }
-  
-    .topContent__downloadButton {
-      font-size: 14px;
-    }
-  }
-
-    @media (max-width: 768px) {
-    .topContent h1 {
         height: fit-content;
-        font-size: 12px;
+      font-size: 28px;
     }
-
-        .topContent p {
-          display: flex;
-          font-size: 12px;
-          letter-spacing: 1px;
-          padding-left: 2px;
-          padding-top: 20px;
-          height: fit-content;
-          width: 450px;
-          right: 20%;
-          text-align:center;
-        }
-  }
-
   
     .topContent p {
       font-size: 16px;
@@ -108,4 +73,8 @@
   
     .topContent__downloadButton {
       font-size: 14px;
-    }  
+    }
+  }
+
+  
+  
