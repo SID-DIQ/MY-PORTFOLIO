@@ -32,7 +32,7 @@ import "./SkillContainer.css";
             <div className="experience-item">
             <div className="experience-info">
                     <p>HTML</p>
-                    <p>[ Beginne ]r</p>
+                    <p>[ Beginner ]</p>
                 </div>
                 <div className="Prograss-line" data-percent="50%">
                     <span style={{width:"50%"}}></span>
