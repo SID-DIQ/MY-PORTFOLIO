@@ -14,7 +14,7 @@ import "./SkillContainer.css";
         <div className="experience-item">
             <div className="experience-info">
                     <p>Java</p>
-                    <p>60%</p>
+                    <p>[ Intermidiate ]</p>
                 </div>
                 <div className="Prograss-line" data-percent="60%">
                     <span style={{width:"60%"}}></span>
@@ -23,7 +23,7 @@ import "./SkillContainer.css";
             <div className="experience-item">
             <div className="experience-info">
                     <p>C</p>
-                    <p>70%</p>
+                    <p>[ Intermidiate ]</p>
                 </div>
                 <div className="Prograss-line" data-percent="70%">
                     <span style={{width:"70%"}}></span>
@@ -32,7 +32,7 @@ import "./SkillContainer.css";
             <div className="experience-item">
             <div className="experience-info">
                     <p>HTML</p>
-                    <p>50%</p>
+                    <p>[ Beginne ]r</p>
                 </div>
                 <div className="Prograss-line" data-percent="50%">
                     <span style={{width:"50%"}}></span>
@@ -41,7 +41,7 @@ import "./SkillContainer.css";
             <div className="experience-item">
             <div className="experience-info">
                     <p>CSS</p>
-                    <p>50%</p>
+                    <p>[ Beginner ]</p>
                 </div>
                 <div className="Prograss-line" data-percent="50%">
                     <span style={{width:"50%"}}></span>
@@ -50,7 +50,7 @@ import "./SkillContainer.css";
             <div className="experience-item">
             <div className="experience-info">
                     <p>JavaScript</p>
-                    <p>40%</p>
+                    <p>[ Beginner ]</p>
                 </div>
                 <div className="Prograss-line" data-percent="40%">
                     <span style={{width:"40%"}}></span>
@@ -59,23 +59,12 @@ import "./SkillContainer.css";
             <div className="experience-item">
             <div className="experience-info">
                     <p>ReactJS</p>
-                    <p>40%</p>
+                    <p>[ Beginner ]</p>
                 </div>
                 <div className="Prograss-line" data-percent="40%">
                     <span style={{width:"40%"}}></span>
                 </div>
             </div>
-            <div className="experience-item">
-            <div className="experience-info">
-                    <p>Node JS</p>
-                    <p>40%</p>
-                </div>
-                <div className="Prograss-line" data-percent="40%">
-                    <span style={{width:"40%"}}></span>
-                </div>
-            </div>
-
-
         </div>
     </div>
     </Element>
