@@ -1,0 +1,15 @@
+@media (max-width: 768px) { /* Adjust the max-width as needed */
+    body {
+      display: none;
+    }
+  }
+ 
+  @media (max-width: 768px) { /* Adjust the max-width as needed */
+    body {
+      display: none;
+    }
+    .mobile-message {
+      display: block;
+    }
+  }
+  
