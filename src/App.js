@@ -4,7 +4,6 @@ import SkillContainer from "./Components/SkillContainer/SkillContainer";
 import TopContainer from './Components/TopContainer/TopContainer'
 import EducationContainer from './Components/EducationContainer/EducationContainer';
 import ContactContainer from './Components/ContactactContainer/ContactContainer';
-import DesktopSite from './Components/Desktopsite/DesktopSite';
 const App =() =>{
   return (
     <div>
@@ -13,7 +12,6 @@ const App =() =>{
       <SkillContainer />
       <EducationContainer />
       <ContactContainer />
-      <DesktopSite />
     </div>
   )
 }
