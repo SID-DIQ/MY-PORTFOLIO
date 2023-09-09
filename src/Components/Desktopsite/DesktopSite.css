@@ -1,6 +1,7 @@
 
 .mobile-message {
     display: block;
+    position: absolute;
     background-color: #f44336; 
     color: white; 
     padding: 10px;
