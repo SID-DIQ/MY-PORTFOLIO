@@ -1,15 +1,11 @@
-@media (max-width: 768px) { 
-    body {
-      display: none;
-    }
-  }
+
+.mobile-message {
+    display: block;
+    background-color: #f44336; 
+    color: white; 
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
  
-  @media (max-width: 768px) { 
-    body {
-      display: none;
-    }
-    .mobile-message {
-      display: block;
-    }
   }
   
