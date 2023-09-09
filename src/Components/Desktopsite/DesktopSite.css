@@ -1,13 +1,9 @@
-/* DesktopSite.css */
-
-/* Apply a black background to cover the entire screen */
 body {
     background-color: black;
     margin: 0;
     overflow: hidden;
   }
   
-  /* Style for the warning message */
   .mobile-warning {
     display: flex;
     justify-content: center;

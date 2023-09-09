@@ -1,7 +1,7 @@
 import React from 'react';
 import './DesktopSite.css';
 
-const MobileMessage = () => {
+const DesktopSite = () => {
   return (
     <div className="mobile-warning">
       Please switch to the desktop site to access this content.
@@ -9,4 +9,4 @@ const MobileMessage = () => {
   );
 }
 
-export default MobileMessage;
+export default DesktopSite;
