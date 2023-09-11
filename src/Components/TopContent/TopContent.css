@@ -65,16 +65,13 @@
   }
 
   .topContent__container > h1 {
-    font-family: "Montserrat",sans-serif;
     font-size: 11px;
-    max-width: 80%; 
+    max-width: fit-content; 
   }
 
   .topContent__container > p {
-    font-family: "Montserrat",sans-serif;
-    top: 80%;
     font-size: 11px;
-    max-width: 200%; 
+    max-width:fit-content; 
   }
 
   .topContent__downloadButton {
