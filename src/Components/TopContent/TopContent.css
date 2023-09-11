@@ -56,7 +56,7 @@
 }
 @media (max-width: 768px) {
   .topContent {
-    text-align: center;
+    text-align:end;
   }
 
   .topContent__container {
@@ -66,9 +66,14 @@
     margin: 2px; 
   }
 
-  .topContent__container > p {
+  .topContent__container > h1 {
     font-size: 10px;
-    max-width: 100%; 
+    max-width: 80%; 
+  }
+
+  .topContent__container > p {
+    font-size: 9px;
+    max-width: 80%; 
   }
 
   .topContent__downloadButton {
