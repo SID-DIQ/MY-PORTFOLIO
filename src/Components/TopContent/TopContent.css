@@ -61,8 +61,8 @@
 
   .topContent__container {
     position:sticky; 
-    top: auto;
-    right: auto;
+    top: 70%;
+    right: 20%;
     margin: 2px; 
   }
 
