@@ -71,7 +71,8 @@
 
   .topContent__container > p {
     font-size: 10px;
-    max-width: 250%; 
+    max-width: 450%; 
+    text-align: center;
   }
 
   .topContent__downloadButton {
