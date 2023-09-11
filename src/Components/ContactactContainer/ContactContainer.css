@@ -46,3 +46,23 @@
     color: white !important;
 }
 
+@media (max-width: 768px) {
+    .contact__Container {
+      width: 80%; 
+      padding: 20px; 
+    }
+  
+    .contact__Container > p {
+      font-size: 16px; 
+      padding-bottom: 10px; 
+    }
+  
+    .contact__icons {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contact__icons > a {
+      margin: 10px 0; 
+    }
+  }
