@@ -56,7 +56,8 @@
 }
 @media (max-width: 768px) {
   .topContent {
-    text-align:end;
+    text-align:center;
+    align-items: center;
   }
 
   .topContent__container {
@@ -65,11 +66,13 @@
   }
 
   .topContent__container > h1 {
+    align-items: center;
     font-size: 10px;
     max-width: 110%; 
   }
 
   .topContent__container > p {
+    align-items: center;
     top: 140%;
     font-size: 11px;
     max-width: 300%; 
@@ -77,6 +80,7 @@
   }
 
   .topContent__downloadButton {
+    align-items: center;
     font-size: 10px;
   }
 }
