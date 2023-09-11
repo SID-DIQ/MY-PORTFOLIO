@@ -70,6 +70,7 @@
   }
 
   .topContent__container > p {
+    position:absolute;
     font-size: 10px;
     max-width: 450%; 
     text-align: center;
