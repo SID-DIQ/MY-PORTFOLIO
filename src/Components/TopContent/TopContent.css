@@ -73,9 +73,9 @@
   .topContent__container > p {
     font-family: "Montserrat",sans-serif;
     top: 80%;
-    right:50%;
+    left: 300px;
     font-size: 11px;
-    max-width: 100%; 
+    max-width: 300%; 
   }
 
   .topContent__downloadButton {
