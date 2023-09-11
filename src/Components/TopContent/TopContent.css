@@ -60,7 +60,7 @@
   }
 
   .topContent__container {
-    position: static; 
+    position:sticky; 
     top: auto;
     right: auto;
     margin: 2px; 
