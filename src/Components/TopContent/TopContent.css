@@ -54,27 +54,27 @@
     font-weight: 600px;
 
 }
-
-  @media (max-width: 768px) {
-    .topContent h1 {
-        height: fit-content;
-      font-size: 28px;
-    }
-  
-    .topContent p {
-      font-size: 16px;
-      letter-spacing: 1px;
-      padding-left: 2px;
-      padding-top: 20px;
-      height: fit-content;
-      width: 450px;
-      text-align:center;
-    }
-  
-    .topContent__downloadButton {
-      font-size: 14px;
-    }
+@media (max-width: 768px) {
+  .topContent {
+    text-align: center;
   }
+
+  .topContent__container {
+    position: static; 
+    top: auto;
+    right: auto;
+    margin: 20px; 
+  }
+
+  .topContent__container > p {
+    font-size: 16px;
+    max-width: 100%; 
+  }
+
+  .topContent__downloadButton {
+    font-size: 14px;
+  }
+}
 
   
   
