@@ -6,9 +6,10 @@ const TopContent = () => {
     <div className="topContent">
         <div className="topContent__container">
             <h1>Mr.Mohamed Siddiq </h1>
-            <p>I am pursuing my UG in<br /> 
-                Kongunadu College of Engineering and Technology<b /> in the department of Electronics and Communication Engineering,
-               and <b />I am passionate  in information technology.</p>
+            <p>I am pursuing my UG </p>
+            <p>in Kongunadu College of Engineering and Technology</p>
+               <p>in the department of Electronics and Communication Engineering, and</p>
+               <p> I am passionate  in information technology.<p/>
             <a href="https://drive.google.com/file/d/1AjYJT3OM8zbV-NqiIogvbyLqNWBzU5TS/view?usp=sharing">
             <button className="topContent__downloadButton">Download CV</button>
         </a>       
