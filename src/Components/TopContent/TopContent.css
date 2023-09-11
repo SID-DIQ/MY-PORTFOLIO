@@ -66,12 +66,12 @@
 
   .topContent__container > h1 {
     font-size: 10px;
-    max-width: 80%; 
+    max-width: 100%; 
   }
 
   .topContent__container > p {
     font-size: 10px;
-    max-width: 200%; 
+    max-width: 250%; 
   }
 
   .topContent__downloadButton {
