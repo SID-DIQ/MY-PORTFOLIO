@@ -65,7 +65,6 @@
   }
 
   .topContent__container > h1 {
-    padding: 10px 30px;
     font-family: "Montserrat",sans-serif;
     font-size: 11px;
     max-width: 80%; 
@@ -75,7 +74,7 @@
     padding: 10px 30px;
     font-family: "Montserrat",sans-serif;
     top: 80%;
-    right: 90%;
+    right: 70%;
     font-size: 11px;
     max-width: 80%; 
   }
