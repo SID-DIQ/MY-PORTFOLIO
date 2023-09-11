@@ -63,16 +63,16 @@
     position: static; 
     top: auto;
     right: auto;
-    margin: 20px; 
+    margin: 2px; 
   }
 
   .topContent__container > p {
-    font-size: 16px;
+    font-size: 10px;
     max-width: 100%; 
   }
 
   .topContent__downloadButton {
-    font-size: 14px;
+    font-size: 10px;
   }
 }
 
