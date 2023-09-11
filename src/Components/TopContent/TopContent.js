@@ -8,14 +8,11 @@ const TopContent = () => {
             <h1>Mr.Mohamed Siddiq </h1>
             <p>
               I am pursuing my UG 
-              </p>
-            <p>
+              <br />
               in Kongunadu College of Engineering and Technology
-              </p>
-               <p>
+              <br />
                 in the department of Electronics and Communication Engineering, and
-               </p>
-               <p>
+               <br />
                  I am passionate  in information technology.
                 </p>
             <a href="https://drive.google.com/file/d/1AjYJT3OM8zbV-NqiIogvbyLqNWBzU5TS/view?usp=sharing">
