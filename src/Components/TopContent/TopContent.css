@@ -65,13 +65,11 @@
   }
 
   .topContent__container > h1 {
-    font-family: "Montserrat",sans-serif;
     font-size: 10px;
     max-width: 80%; 
   }
 
   .topContent__container > p {
-    font-family: "Montserrat",sans-serif;
     font-size: 10px;
     max-width: 200%; 
   }
