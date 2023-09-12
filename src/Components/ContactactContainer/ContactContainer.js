@@ -48,7 +48,8 @@ const ContactContainer = () => {
             </div>
         </div>
             <footer>
-                <p>&copy; 2023 BONE CHILLER.</p>
+                <p>&copy; 2023 BONE CHILLER
+                    .</p>
                 </footer>
     </Element>
   )
