@@ -17,7 +17,7 @@
 
 .contact__Container {
     border: 1px solid white;
-    width: 500px;
+    width: 350px;
     height: 200px;
     flex-direction: column;
     align-items: center;
@@ -29,7 +29,9 @@
 
 .contact__Container > p{
     font-size: 20px;
-    text-align: left;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     padding-bottom: 30px;
 }
 
@@ -40,29 +42,47 @@
 .contact__icons > a > button > span >.MuisvgIcon-root{
     color: white;
     font-size: 30px;
+    align-items: center;
+    justify-content: center;
 }
 
 .contact__icons > a > .MuiIconButton-root{
     color: white !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact__icons{
+  text-align: center;
 }
 
 @media (max-width: 768px) {
     .contact__Container {
       width: 80%; 
       padding: 20px; 
+      align-items: center;
+      justify-content: center;
     }
   
     .contact__Container > p {
       font-size: 16px; 
-      padding-bottom: 10px; 
-    }
-  
-    .contact__icons {
-      flex-direction: column;
+      padding-bottom: 10px;
+      text-align: center; 
+      justify-content: center;
       align-items: center;
     }
   
+    .contact__icons {
+      text-align: center;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
     .contact__icons > a {
-      margin: 10px 0; 
+      margin: 8px 0; 
+      text-align: center;
+      align-items: center;
+      justify-content: center;
     }
   }
