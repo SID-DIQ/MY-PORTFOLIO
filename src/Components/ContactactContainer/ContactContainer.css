@@ -58,7 +58,8 @@
 
 @media (max-width: 768px) {
     .contact__Container {
-      width: 80%; 
+      width: 80%;
+      height: 80%; 
       padding: 20px; 
       align-items: center;
       justify-content: center;
