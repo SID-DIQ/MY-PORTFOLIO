@@ -7,7 +7,7 @@ const TopContent = () => {
         <div className="topContent__container">
             <h1>Mr.Mohamed Siddiq </h1>
             <p>
-              I am pursuing my UG 
+              I am pursuing my UG <br />
               in Kongunadu College of Engineering and Technology
               in the department of Electronics and Communication Engineering, and
               I am passionate  in information technology.
