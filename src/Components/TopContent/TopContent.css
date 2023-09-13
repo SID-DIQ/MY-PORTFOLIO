@@ -80,12 +80,13 @@
   }
 
   .topContent__container > p {
+    padding-top: 0.6px;
     text-align: center;
     align-items: center;
     justify-content: center;
     top: 100%;
     font-size: 11px;
-    max-width: 1000%; 
+    max-width: 100%; 
   }
 
   .topContent__downloadButton {
