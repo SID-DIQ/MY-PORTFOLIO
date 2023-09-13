@@ -15,32 +15,32 @@ const ContactContainer = () => {
                  Github Username : <span>SID-DIQ</span>
             </p>
             <div className="contact__icons">
-                <a href= "https://www.linkedin.com/in/mohamed-siddiq-m-154682225/" target="_blank">
+                <a href= "https://www.linkedin.com/in/mohamed-siddiq-m-154682225/">
                     <IconButton>
                         <LinkedIn />
                     </IconButton>
                 </a>
 
-                <a href= "mailto:siddiqdec23@gmail.com" target="_blank">
+                <a href= "mailto:siddiqdec23@gmail.com">
                     <IconButton>
                         <Email />
                     </IconButton>
                 </a>
 
 
-                <a href= "https://github.com/SID-DIQ" target="_blank">
+                <a href= "https://github.com/SID-DIQ">
                     <IconButton>
                         <GitHub />
                     </IconButton>
                 </a>
 
-                <a href= "https://www.instagram.com/_._.siddiq._._/" target="_blank">
+                <a href= "https://www.instagram.com/_._.siddiq._._/">
                     <IconButton>
                         <Instagram />
                     </IconButton>
                 </a>
 
-                <a href= "https://wa.me/9087377981" target="_blank">
+                <a href= "https://wa.me/9087377981">
                     <IconButton>
                         <WhatsApp />
                     </IconButton>
