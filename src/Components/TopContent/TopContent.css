@@ -62,6 +62,7 @@
   }
 
   .topContent__container {
+    width: 300;
     right: 0.5%;
     left: 1%;
     margin: 1px; 
@@ -85,7 +86,7 @@
     justify-content: center;
     top: 100%;
     font-size: 11px;
-    max-width: 290%; 
+    max-width: 250%; 
   }
 
   .topContent__downloadButton {
