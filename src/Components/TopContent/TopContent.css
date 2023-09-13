@@ -62,7 +62,6 @@
   }
 
   .topContent__container {
-    left: 2%;
     margin: 2px; 
     text-align: center;
     justify-content: center;
@@ -78,6 +77,8 @@
   }
 
   .topContent__container > p {
+    right: 0%;
+    left: 1%;
     text-align: center;
     align-items: center;
     justify-content: center;
