@@ -86,7 +86,7 @@
     justify-content: center;
     top: 100%;
     font-size: 11px;
-    max-width: 250%; 
+    max-width: 100%; 
   }
 
   .topContent__downloadButton {
