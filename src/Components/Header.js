@@ -16,6 +16,13 @@ const Header = () => {
                 About Me
             </h4>
         </Link>
+
+        <Link to="projects" smooth={true} duration={500}>
+            <h4>
+                Projects
+            </h4>
+        </Link>
+
         <Link to="Skills" smooth={true} duration={500}>
             <h4>
                 Skills
