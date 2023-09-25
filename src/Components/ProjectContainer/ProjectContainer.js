@@ -5,7 +5,8 @@ import './ProjectContainer.css';
 const ProjectContainer = () => {
     const projects = [
     { id: 1, name: 'Tic-Tac-Toe-Game', link: 'https://tttbonechiller.vercel.app/' },
-    { id: 2, name: 'Portfolio', link: 'https://sidduportfolio.netlify.app' },
+    { id: 2, name: 'Calculator', link: 'https://calculatorbonechiller.vercel.app/' },
+    { id: 3, name: 'Portfolio', link: 'https://sidduportfolio.netlify.app' },
   ];
 
   return (
