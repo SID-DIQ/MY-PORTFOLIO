@@ -11,7 +11,7 @@ const TopContent = () => {
             I'd like to work for a company that would provide me with a platform to expand my abilities
             and expertise while also assisting me in my company's ongoing growth.
             </p>
-            <a href="https://drive.google.com/file/d/1AjYJT3OM8zbV-NqiIogvbyLqNWBzU5TS/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1spvXsGatvYUQcdXRFWhdL6YG_7O1xpw5/view?usp=sharing">
             <button className="topContent__downloadButton">Download CV</button>
         </a>       
         </div>
